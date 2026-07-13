@@ -1,0 +1,23 @@
+html {
+  background: #12141c;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100svh;
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+::selection {
+  color: #0d0e13;
+  background: #57cbf7;
+}
